@@ -1,11 +1,20 @@
-class Bag {
+class Bag{
+	public static void main(String handmade[]){
+	String closureType = "Push Lock";
+	String outerMaterial = "Cotton";
+	String style = "Rajasthani potli for women";
+	String occasionType = "Engagement";
+	int numberOfPockets = 2;
+	String lining = "Cotton";
+	String countryOfOrigin = "India";
 	
-	public static void main(String[] skybags) {
-		System.out.println("Material: Polyester");
-		System.out.println("Closer: Zip");
-		System.out.println("Lightweight: Our products are strive to be lightweight to minimize the overall weight and strain of carrying them, particularly during travel");
-		System.out.println("Durability: Our products are designed to be durable and long-lasting, able to withstand the rigors of everyday use or the demands of travel without easily succumbing to wear and tear.");
-		System.out.println("Easy Maintenance: Ourproducts are easy to clean and maintain, with materials that are resistant to stains or can be easily wiped clean.");
+	System.out.println("The Closure Type is "+ closureType);
+	System.out.println("The Outer Material is "+ outerMaterial );
+	System.out.println("The Style is "+ style);
+	System.out.println("The Occasion Type is "+occasionType );
+	System.out.println("The Number Of Pockets is "+numberOfPockets );
+	System.out.println("The Lining is "+ lining );
+	System.out.println("The Country Of Origin is "+countryOfOrigin );
+	
 	}
-
 }

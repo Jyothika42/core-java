@@ -1,11 +1,23 @@
 class Sunscreen {
+	public static void main(String bodywise[] ){
+	String productDetails = "Protects against UVA/UVB rays & prevents sun tan";
+	int sunProtectionFactor = 50;
+	int weight = 13;
+	int numberOfItems = 1;	
+	int netQuality = 13;
+	String skinType = "All";
+	String activeIngredients ="Vitamin E,centella";
 
-	public static void main(String[] Derma){
-		System.out.println("6-HOUR LONG LASTING FORMULA: Powered with Heat Shield Technology, this sunscreen defends your skin from sun damage for upto 6 hours and protects your skin from environmental aggressors. So, no need for reapplication.");
-		System.out.println("WATER & SWEAT RESISTANT: Come sweat or rain, this long-lasting sunscreen stays put and protects your skin from sun damage throughout the day.");
-		System.out.println("NON-GREASY & LIGHTWEIGHT: Greasiness or heaviness? No chance. This sunscreen feels light as air on the skin and blends effortlessly without leaving any residue");
-		System.out.println("WHO IS IT SUITABLE FOR? Want long lasting protection sun protection? This sunscreen is perfect for you! It's dermatologically tested and is ideal for all skin types.");
+	String brandName = "Be Bodywise";
+	
+	System.out.println("The Product Details is "+ productDetails);
+	System.out.println("The Sun Protection Factor is "+ sunProtectionFactor);
+	System.out.println("The weight is "+  weight);
+	System.out.println("The Number Of Itemsis "+ numberOfItems);
+	System.out.println("The Net Quality is "+ netQuality);
+	System.out.println("The Skin Type is "+ skinType);
+	System.out.println("The Active Ingredients is "+  activeIngredients);
 		
-	}
-
+		
+		}
 }

@@ -1,10 +1,28 @@
-class Projector {
+class Projector{
+	public static void main(String[] hdr){ 
+	
+	String brandName = "WZATCO";
+    String displayResolutionMaximum = "4K Pixels";
+	String displayType	= "LCD";
+	String formFactor  = "Portable"; 
+	String mountingType = "Tripod Mount";
+	
 
-	public static void main(String[] Epson){
-		System.out.println("Projector is a device");
-		System.out.println("Projector is an optical device");
-		System.out.println("Projector helps to create large representation of the content");
-		
+	
+	
+	System.out.println("The Brand Name is "+ brandName);
+	System.out.println("The Display Resolution Maximum is "+ displayResolutionMaximum  );
+	System.out.println("The Display Type"+ displayType);
+	System.out.println("The Form Factoris "+ formFactor);
+	System.out.println("The Mounting Type is "+   mountingType);
+	
+	
+	
+	
+	
 	}
+
+
+
 
 }

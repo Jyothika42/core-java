@@ -1,12 +1,18 @@
-class PowerBank{
+class PowerBank {
+	public static void main(String charging[]){
+	String brandName = "MI";
+	String connectorType = "USB, Micro USB";
+	int batteryCapacity = 350;
+	String color = "Black";
+	String specialFeature =	"Short Circuit Protection, Fast Charging";
 	
-	public static void main(String[] MI) {
-		System.out.println("Triple port output");
-		System.out.println("Dual input port (Micro-USB/USB-C, Charging Time : 6.9 hours");
-		System.out.println("Advanced 12 Layer chip protection");
-		System.out.println("Smart power management");
-		System.out.println("6 months domestic warranty");
 	
+	
+	System.out.println("The Brand Name is"+ brandName);
+	System.out.println("The Connector Type is"+connectorType);
+	System.out.println("The Color is"+color);
+	System.out.println("The Battery Capacity  "+batteryCapacity );
+	System.out.println("The Special Feature is "+ specialFeature);
 	}
 
 }

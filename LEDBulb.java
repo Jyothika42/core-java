@@ -1,14 +1,30 @@
 class LEDBulb{
+	public static void main(String bulb[]){
+	String brandName = "Crompton";
+    String lightType = "LED";
+	String wattage	= "50 Watts";
+	String bulbBase = "B22D";
+	String lightColour = "White";
+	String voltage = "230 Volts";
+	String netQuantity = "10 count";
+	String colourTemperature =	"6500 Kelvin";
+	int numberOfItems	= 10;
+	String brightness = "4500 Lumen";
+
 	
-	public static void main(String[] philips) {
-		System.out.println("Includes LED Bulb");
-		System.out.println("Wattage: 9 watts");
-		System.out.println("Warranty: 1 year on product from date of invoice");
-		System.out.println("Up to 40 percent energy saving over 15W CFL");
-		System.out.println("Base Cap: B22");
-		System.out.println("Long life of 10 years with 10000 hours life");
-		System.out.println("Up to 85 percent energy saving compared to GLS");
-		System.out.println("Available in 9W as a replacement for 15W CFL");
+	
+	System.out.println("The Brand Name is "+ brandName);
+	System.out.println("The Light Type is "+ lightType );
+	System.out.println("The Wattage is "+ wattage);
+	System.out.println("The Bulb Base is "+ bulbBase);
+	System.out.println("The Light Colour is "+ lightColour);
+	System.out.println("The Voltage is "+ voltage);
+	System.out.println("The Net Quantity is "+ netQuantity );
+	System.out.println("The Colour Temperature is "+ colourTemperature );
+	System.out.println("The Number of Items  is "+ numberOfItems );
+	System.out.println("The Brightness is "+ brightness);
 	}
+
+
 
 }
