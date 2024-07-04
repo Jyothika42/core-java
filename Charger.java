@@ -1,5 +1,5 @@
 class Charger{
-static String brand = "HP";
-public static void main(String[] args){
-}
+	public static void main(String[] sony){
+	System.out.println("Charger is used to charge a phone");
+	}
 }
