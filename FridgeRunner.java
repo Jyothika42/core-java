@@ -1,11 +1,18 @@
 class FridgeRunner{
 
-    public static void main(String[] godrej){
+	public static void main(String[] godrej){
+	System.out.println("Main started");
 	
-	    System.out.println("Main Started");
-		Fridge.switchOn();
-		Fridge.switchOff();
-		System.out.println("Main ended");
+			//invoking a method
+	boolean connect = Fridge.onOrOff();
+	System.out.println("is Fridge connected : " + connect);
+	
+		connect = Fridge.onOrOff();
+		System.out.println("is Fridge connected : " + connect);
+	
+	
+	
+	System.out.println("Main ended");
 	}
-	
+
 }

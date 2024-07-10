@@ -1,4 +1,4 @@
-class IronBox{
+class Speaker{
 
 	static boolean isConnected = false;
 	

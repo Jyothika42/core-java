@@ -2,27 +2,19 @@ class AirConditioner{
 
 	static boolean isConnected = false;
 	
-	public static void turnOn(){
-	System.out.println("start of turn on");
+	public static boolean onOrOff(){
+	System.out.println("start of onOrOff ");
+	
 	if(isConnected == false){
 		isConnected = true;
-		System.out.println("Air Conditioneris turn On");
-	
-	}
-	System.out.println("End of turn On");
-	return;
-	}
-	
-	public static void turnOff(){
-	
-	System.out.println("Start of turn Off");
-	
-	if(isConnected == true){
+		System.out.println("AirConditioner is turn on");
+	}else if(isConnected == true){
 		isConnected = false;
-		System.out.println("Air Conditioner is turn Off");
+		System.out.println("AirConditioner is turn off");
 	}
-		System.out.println("End of turn Off");
-		return;
-	
+		
+	System.out.println("End of onOrOff");
+	return isConnected;
 	}
+
 }
